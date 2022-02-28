@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.urna {
+  background-color: aqua;
+  padding: 30px;
+  display: flex;
+}
+
+.tela {
+  width: 600px;
+  height: 320px;
+  background: linear-gradient(to right, #e8e8e8, #c1c1c1);
+  border: 2px solid #555;
+  display: flex;
+  flex-direction: column;
+}
+
+.teclado {
+  background-color: #403a3a;
+  margin-left: 30px;
+}
+
+.teclado-linha {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.teclado-botao {
+  width: 70px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0px #555;
+}
+
+.bb {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.bc {
+  background-color: #f09046;
+  color: black;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.bca {
+  background-color: #48c079;
+  color: black;
+  font-size: inherit;
+  text-transform: uppercase;
+  width: 90px;
+  height: 50px;
+}
+
+.d1 {
+  flex: 1;
+  display: flex;
+}
+
+.d1e {
+  flex: 1;
+}
+
+.d1d {
+  width: 90px;
+}
+
+.d2 {
+  height: 50px;
+  font-size: 14px;
+  border-top: 2px solid black;
+  padding-left: 10px;
+  padding-top: 2px;
+}
