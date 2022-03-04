@@ -19,17 +19,25 @@
                         <span>VEREADOR</span>
                     </div>
                     <div class="d13">
-                        ...
+                        <div class="numero pisca"></div>
+                        <div class="numero"></div>
                     </div>
                     <div class="d14">
-                        nOME: FULANO DE TAL<BR/>
+                        NOME: FULANO DE TAL<BR/>
                         PARTIDO TAL<BR/>
                         VICE TAL <BR/>
                         VOCE E FODA 
                     </div>
                 </div>
                 <div class="d1d">
-            ...
+                    <div class="d1image">
+                        <img src="images/38111.jpg" alt=""/>
+                        Prefeito
+                    </div>
+                    <div class="d1image small">
+                        <img src="images/77222.jpg" alt=""/>
+                        Vice
+                    </div>
                 </div>
             </div>
             <div class="d2">Aperte a tela:<br/>
@@ -40,29 +48,31 @@
         </div>
         <div class="teclado">
             <div class="teclado-linha">
-                <div class="teclado-botao">1</div>
-                <div class="teclado-botao">2</div>
-                <div class="teclado-botao">3</div>
+                <div class="teclado-botao" onclick="clicou(1)">1</div>
+                <div class="teclado-botao" onclick="clicou(2)">2</div>
+                <div class="teclado-botao" onclick="clicou(3)">3</div>
             </div>
             <div class="teclado-linha">
-                <div class="teclado-botao">4</div>
-                <div class="teclado-botao">5</div>
-                <div class="teclado-botao">6</div>
+                <div class="teclado-botao" onclick="clicou(4)">4</div>
+                <div class="teclado-botao" onclick="clicou(5)">5</div>
+                <div class="teclado-botao" onclick="clicou(6)">6</div>
             </div>
             <div class="teclado-linha">
-                <div class="teclado-botao">7</div>
-                <div class="teclado-botao">8</div>
-                <div class="teclado-botao">9</div>
+                <div class="teclado-botao" onclick="clicou(7)">7</div>
+                <div class="teclado-botao" onclick="clicou(8)">8</div>
+                <div class="teclado-botao" onclick="clicou(9)">9</div>
             </div>
             <div class="teclado-linha">
-                <div class="teclado-botao">0</div>
+                <div class="teclado-botao" onclick="clicou(0)">0</div>
             </div>
             <div class="teclado-linha">
-                <div class="teclado-botao bb">Branco</div>
-                <div class="teclado-botao bc">Corrige</div>
-                <div class="teclado-botao bca">Confirma</div>
+                <div class="teclado-botao bb" onclick="branco()">Branco</div>
+                <div class="teclado-botao bc" onclick="corrige()">Corrige</div>
+                <div class="teclado-botao bca" onclick="confirma()">Confirma</div>
             </div>
         </div>
     </div>
+    <script src="etapas.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
